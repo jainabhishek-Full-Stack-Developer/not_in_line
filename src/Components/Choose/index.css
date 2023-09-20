@@ -1,0 +1,196 @@
+
+.choose-heaing-container {
+
+    text-align: center;
+}
+
+.choose-heading {
+    color: #333333;
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.choose-card-body {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.choose-heading span {
+    color: #138ED1;
+    margin-right: 10px;
+}
+
+.choose-heading-img-container {
+    flex-shrink: 0;
+    margin-left: 70px;
+}
+
+.choose-heading-img {
+    max-width: 100%;
+    height: auto;
+    width: 209px;
+    height: 17px;
+    border: 2px;
+}
+
+.choose-heaing-container .sub-para {
+    width: 729px;
+    height: 80px;
+
+    margin-top: 24px;
+}
+
+
+.choose-heaing-container .sub-para p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6E6E6E;
+
+
+}
+
+
+.choose-card {
+    width: 420px;
+    height: auto;
+    top: 2026px;
+    left: 84px;
+    border-radius: 33px;
+    background: #FFFFFF;
+    position: absolute;
+
+
+
+}
+
+.choose-img {
+
+    position: relative;
+    padding-left: 60px;
+    margin-top: -55px;
+
+
+}
+
+.choose-card-title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.choose-card-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.dropdown-card {
+    width: auto;
+    height: 153px;
+    top: 2422px;
+    left: 24px;
+    border-radius: 38.5px;
+    background: #FFFFFF;
+
+
+}
+
+.dropdown-card ul li img {
+    width: 80px;
+    height: 80px;
+    top: 2441px;
+    left: 38px;
+    border: 3px;
+
+}
+
+.dropdown-card ul li span
+{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.dropdown-card p 
+{
+    width: auto;
+height: 72px;
+top: 2481px;
+left: 88px;
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+
+}
+@media all and (max-width:768px) {
+
+
+    .choose-heaing-container {
+
+        text-align: center;
+    }
+
+    .choose-heading {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0em;
+        color: #333333;
+        text-align: center;
+
+    }
+
+    .choose-heading span {
+        color: #138ED1;
+    }
+
+    .choose-heading-img {
+        width: 91px;
+        height: 8px;
+        margin-right: 100px;
+    }
+
+    .choose-heaing-container .sub-para {
+        width: 312px;
+        height: 30px;
+        margin-top: 10px;
+
+    }
+
+
+    .choose-heaing-container .sub-para p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6E6E6E;
+
+    }
+
+}

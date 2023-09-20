@@ -1,0 +1,305 @@
+.package-heaing-container {
+
+    text-align: center;
+}
+
+.package-heading {
+    color: #333333;
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.package-heading span {
+    color: #138ED1;
+    margin-right: 10px;
+}
+
+.package-heading-img-container {
+    flex-shrink: 0;
+    margin-left: 120px;
+}
+
+.package-heading-img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.package-heaing-container .sub-para {
+    width: 800px;
+    height: 80px;
+    margin-top: 24px;
+}
+
+
+.package-heaing-container .sub-para p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6E6E6E;
+
+
+}
+
+
+
+/* card */
+.card-title {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+
+}
+
+.review-container .rating {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+
+
+}
+
+.review-container .star {
+    width: 17.89px;
+    height: 17.92px;
+    top: 3px;
+    left: 3px;
+    color: #E2E700;
+    margin: 8px 10px;
+
+
+}
+
+.review-container .rating-number {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+.test-number {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #2F2F2F;
+
+
+}
+
+.mrp-container .mrp {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6E6E6E;
+    margin-right: 25px;
+}
+
+.mrp-container .price {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+
+
+}
+
+.card-btn {
+    text-align: center;
+}
+
+.card-btn button {
+    width: 264px;
+    height: 43px;
+    top: 1602px;
+    left: 166px;
+    border-radius: 6px;
+    background: #008DD9;
+    color: #ffffff;
+    outline: none;
+    border: none;
+
+
+}
+.see-all
+{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color:  #00486C;
+text-decoration: none;
+}
+
+@media all and (max-width:768px) {
+
+
+    .package-heaing-container {
+
+        text-align: center;
+    }
+
+    .package-heading {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333;
+        text-align: center;
+
+    }
+
+    .package-heading span {
+        color: #138ED1;
+    }
+
+    .package-heading-img {
+        height: 10px;
+        margin-right: 100px;
+    }
+
+    .package-heaing-container .sub-para {
+        width: 312px;
+        height: 30px;
+        margin-top: 10px;
+
+    }
+
+
+    .package-heaing-container .sub-para p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6E6E6E;
+
+    }
+
+    /* card */
+    .card-title {
+
+        color: #2F2F2F;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+
+    }
+
+    .review-container .rating {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F2F2F;
+    }
+
+    .review-container .star {
+        width: 21px;
+        height: 18.01px;
+        top: 1242.55px;
+        left: 72px;
+        color: #E2E700;
+        margin: 8px 10px;
+
+    }
+
+    .review-container .rating-number {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6e6e6e;
+    }
+
+    .test-number {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        color: #2F2F2F;
+
+
+    }
+
+    .mrp-container .mrp {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6E6E6E;
+        margin-right: 25px;
+    }
+
+    .mrp-container .price {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F2F2F;
+
+
+    }
+
+    .card-btn {
+        text-align: center;
+    }
+
+    .card-btn button {
+        width: 204px;
+        height: 40.75px;
+        top: 1339px;
+        left: 78px;
+        border-radius: 6px;
+        border-radius: 6px;
+        background: #008DD9;
+        color: #ffffff;
+        outline: none;
+        border: none;
+
+
+    }
+}

@@ -1,0 +1,186 @@
+.hero-bg
+{
+    background-image: url('https://res.cloudinary.com/dei8sqhcu/image/upload/v1695190276/Rectangle_1_hfrgnu.png');
+    background-size: cover;
+}
+.custom-card {
+    width: auto;
+    height: auto;
+    top: 126px;
+    left: 122px;
+    border-radius: 34px;
+    background: #FFFFFF;
+
+}
+
+.custom-card-body h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.custom-card-body label img {
+    width: 35px;
+    height: 35px;
+    top: 208px;
+    left: 142px;
+    margin-right: 15px;
+}
+
+.form-input {
+    width: 350px;
+    height: 47px;
+    top: 207px;
+    left: 196px;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+    border: none;
+    outline: none;
+
+}
+
+.form-input::placeholder {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #6E6E6E;
+    padding-left: 25px;
+
+
+}
+
+.input-checkbox {
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.input-checkbox input {
+    width: 15px;
+    height: 15px;
+
+
+}
+
+.input-checkbox label {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.input-btn {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input-btn button {
+    width: 236px;
+    height: 42px;
+    top: 469px;
+    left: 239px;
+    border-radius: 6px;
+    background: #138ED1;
+    color: #FFFFFF;
+
+
+}.hero-offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    flex-grow: 1;
+    background-color: #00486C;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 25px 10px;
+    max-width: 80%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.right {
+    flex-shrink: 0;
+    width: 25%;
+    height: 68px;
+    border-radius: 34px;
+    background: #00A6FF;
+    color: #FFFFFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: absolute;
+    
+    left:22%;
+    z-index: 0;
+}
+
+
+
+.body-check {
+    width: 312px;
+    height: 55px;
+    top: 168px;
+    left: 23px;
+    padding: 8px, 0px, 3px, 0px;
+    text-align: center;
+    background-color: #00486C;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 34px;
+    padding: 15px;
+
+}
+
+.offer {
+    width: auto;
+    height: auto;
+    top: 223px;
+    left: 78px;
+    padding: 8px, 0px, 3px, 0px;
+    text-align: center;
+    background-color: #00A6FF;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 34px;
+    padding: 12px;
+
+}
+
+.offer span {
+    padding-right: 10px;
+}
