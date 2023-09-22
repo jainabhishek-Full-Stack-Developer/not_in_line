@@ -1,13 +1,28 @@
+.logo {
+    width: 63px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.logo-name {
+    width: 214px;
+    height: 64px;
+    flex-shrink: 0;
+
+}
+
 .custom-link {
+    width: 45px;
+    height: 40.488px;
+    flex-shrink: 0;
+    color: #000;
     font-family: Inter;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .active-nav {
@@ -21,7 +36,7 @@
 }
 
 .custom-btn {
-    padding: 10px;
+    /* padding: 10px;
     border-radius: 4px;
     background-color: #00486C;
     color: #FFFFFF;
@@ -32,22 +47,47 @@
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
+    margin-right: 10px; */
+    width: 113px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #00486C;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px;
     margin-right: 10px;
 }
 
 .custom-play {
-    padding: 10px;
+
+    width: 115px;
+    height: 35px;
+    flex-shrink: 0;
     border-radius: 4px;
-    background-color: #333333;
-    color: #FFFFFF;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
+    background: #333;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
     text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
 }
+
+.custom-play span {
+    width: 21px;
+    height: 20.588px;
+    flex-shrink: 0;
+}
+
 
 .mobile-navbar {
     display: none;
@@ -56,7 +96,28 @@
 .mobile-menu-list {
     display: none;
 }
-
+.mobile-custom-play
+{
+    padding: 10px;
+    width: 115px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #333;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.laptop-navbar
+{
+    background-color: #fff;
+}
 @media all and (max-width:1200px) {
     .laptop-navbar {
         display: none;
@@ -64,6 +125,7 @@
 
     .mobile-navbar {
         display: block;
+        background-color: #fff;
     }
 
     .mobile-menu-list {

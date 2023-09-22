@@ -18,10 +18,16 @@ const Expanding = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="expanding-heaing-container">
+                <div className="expanding-heaing-container d-none d-lg-block ">
                     <h4 className="expanding-heading">We keep <span>expanding</span>!</h4>
                     <div className="expanding-heading-img-container">
                         <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186465/design_cyfj1z.png" alt="design" className="expanding-heading-img" />
+                    </div>
+                </div>
+                <div className="expanding-heaing-container d-lg-none">
+                    <h4 className="expanding-heading">We keep <span>expanding</span>!</h4>
+                    <div className="expanding-heading-img-container">
+                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695314418/Vector_1_gwophd.png" alt="design" className="expanding-heading-img" />
                     </div>
                 </div>
                 <div className="container my-5">

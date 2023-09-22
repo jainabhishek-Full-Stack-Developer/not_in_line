@@ -16,16 +16,16 @@ const Header = () => {
     return (
         <>
             <header className="laptop-navbar">
-                <div className="container">
-                    <div className="row d-flex flex-row justify-content-between align-items-center ">
-                        <div className="col-3">
+                <div className="container-fluid px-3">
+                    <div className="row d-flex flex-row justify-content-between align-items-center">
+                        <div className="col-4 d-flex flex-row">
                             <Link to="/">
-                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/logo_nfrku3.png" alt="logo icon" className=" img-fluid w-25" />
-                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/logo_name_gqhl6z.png" alt="logo name" className=" img-fluid w-50" />
+                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/logo_nfrku3.png" alt="logo icon" className="logo" />
+                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/logo_name_gqhl6z.png" alt="logo name" className="logo-name" />
                             </Link>
                         </div>
-                        <div className=" col-9 d-flex flex-row justify-content-between align-items-center mt-4">
-                            <div>
+                        <div className="col-8  d-flex flex-row justify-content-between align-items-center">
+                            <div className="pt-4">
                                 <ul className="d-flex flex-row list-unstyled justify-content-start align-items-center">
                                     <li>
                                         <Link to="/" className="custom-link">Home</Link>
@@ -41,24 +41,17 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </div>
+
                             <div>
-                                <ul className="d-flex flex-row list-unstyled" >
-                                    <li>
-                                        <Link to="/" className="custom-btn">
-                                            For patients
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/" className="custom-btn">
-                                            For hospitals
-                                        </Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/" className="custom-play" ><span><BiLogoPlayStore size="25" /></span> Play store</Link>
-                                    </li>
-                                </ul>
+                                <Link to="/" className="custom-btn">
+                                    For patients
+                                </Link>
+                                <Link to="/" className="custom-btn">
+                                    For hospitals
+                                </Link>
                             </div>
-                           
+
+                            <Link to="/" className="custom-play" ><span><BiLogoPlayStore  /></span> Play store</Link>
 
                         </div>
                     </div>
@@ -109,7 +102,7 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="my-4">
-                                        <Link to="/" className="custom-play" ><span><BiLogoPlayStore size="20" /></span> Play store</Link>
+                                        <Link to="/" className="mobile-custom-play" ><span><BiLogoPlayStore  /></span> Play store</Link>
                                     </li>
                                 </ul>
                             </div>

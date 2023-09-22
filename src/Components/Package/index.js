@@ -7,27 +7,14 @@ import { Link } from "react-router-dom";
 const Package = () => {
     return (
         <>
-            <section>
-                <div className="package-heaing-container">
-                    <h4 className="package-heading">Top  <span>packages</span></h4>
-                    <div className="package-heading-img-container">
-                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186465/design_cyfj1z.png" alt="design" className="package-heading-img" />
-                    </div>
-                    <div className="d-flex flex-row justify-content-center">
-                        <div className="sub-para" >
-                            <p>Explore our wide range of tests! We ensure that you don’t miss out on any chance to keep yourself healthy.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+           
             <section>
                 <div className="container my-5">
                     <div className="row">
                         <div className="col-lg-4 col-md-12 ">
                             <div className="card border-0 shadow mb-3">
                                 <div className="card-body">
-                                    <h5 class="card-title">Basic Full Body Checkup</h5>
+                                    <h5 className="card-title">Basic Full Body Checkup</h5>
                                     <ul className="list-unstyled d-flex flex-row justify-content-start align-items-center review-container ">
                                         <li className="rating" >4.3</li>
                                         <li className="star"><AiTwotoneStar size="20" /></li>
@@ -47,7 +34,7 @@ const Package = () => {
                         <div className="col-lg-4 col-md-12 ">
                             <div className="card border-0 shadow mb-3">
                                 <div className="card-body">
-                                    <h5 class="card-title">Advance Full Body Checkup</h5>
+                                    <h5 className="card-title">Advance Full Body Checkup</h5>
                                     <ul className="list-unstyled d-flex flex-row justify-content-start align-items-center review-container ">
                                         <li className="rating" >4.7</li>
                                         <li className="star"><AiTwotoneStar size="20" /></li>
@@ -67,7 +54,7 @@ const Package = () => {
                         <div className="col-lg-4 col-md-12 ">
                             <div className="card border-0 shadow">
                                 <div className="card-body">
-                                    <h5 class="card-title">Liver Function Test (LFT)</h5>
+                                    <h5 className="card-title">Liver Function Test (LFT)</h5>
                                     <ul className="list-unstyled d-flex flex-row justify-content-start align-items-center review-container ">
                                         <li className="rating" >4.3</li>
                                         <li className="star"><AiTwotoneStar size="20" /></li>

@@ -1,8 +1,8 @@
-.hero-bg
-{
+.hero-bg {
     background-image: url('https://res.cloudinary.com/dei8sqhcu/image/upload/v1695190276/Rectangle_1_hfrgnu.png');
     background-size: cover;
 }
+
 .custom-card {
     width: auto;
     height: auto;
@@ -92,9 +92,19 @@
     border-radius: 6px;
     background: #138ED1;
     color: #FFFFFF;
+}
 
+.input-btn button:hover {
+    width: 236px;
+    height: 42px;
+    top: 469px;
+    left: 239px;
+    border-radius: 6px;
+    background: #138ED1;
+    color: #FFFFFF;
+}
 
-}.hero-offer {
+.hero-offer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -135,8 +145,8 @@
     padding-top: 20px;
     padding-right: 20px;
     position: absolute;
-    
-    left:22%;
+
+    left: 22%;
     z-index: 0;
 }
 
@@ -183,4 +193,73 @@
 
 .offer span {
     padding-right: 10px;
+}
+
+
+
+.hero-heaing-container {
+
+    text-align: center;
+}
+
+.hero-heading {
+    color: #333333;
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.hero-heading span {
+    color: #138ED1;
+    margin-right: 10px;
+}
+
+.hero-heading-img-container {
+    flex-shrink: 0;
+    margin-left: -250px;
+}
+
+.expanding-heading-img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+/* mobile */
+
+.hero-mobile-heaing-container {
+
+    text-align: center;
+}
+
+.hero-mobile-heading {
+    color: #333333;
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.hero-mobile-heading span {
+    color: #138ED1;
+    margin-right: 10px;
+}
+
+.hero-mobile-heading-img-container {
+
+    margin-left: -120px;
+    margin-top: -10px;
+}
+
+.expanding-mobile-heading-img {
+    max-width: 100%;
+    height: auto;
+
 }

@@ -29,93 +29,91 @@ const Choose = () => {
 
     return (
         <>
-           
-                <section className="vh-100 d-none d-lg-block" >
-                    <div className="choose-heaing-container">
-                        <h4 className="choose-heading">Why  <span>choose</span>us?</h4>
-                        <div className="choose-heading-img-container">
-                            <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186465/design_cyfj1z.png" alt="design" className="choose-heading-img" />
-                        </div>
-                        <div className="d-flex flex-row justify-content-center">
-                            <div className="sub-para" >
-                                <p>We want you and your heart to be healthy so you can live a happy life!</p>
-                            </div>
+
+            <section className=" mb-5 pb-5 d-none d-lg-block" >
+                <div className="choose-heaing-container">
+                    <h4 className="choose-heading">Why  <span>choose</span>us?</h4>
+                    <div className="choose-heading-img-container">
+                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186465/design_cyfj1z.png" alt="design" className="choose-heading-img" />
+                    </div>
+                    <div className="d-flex flex-row justify-content-center">
+                        <div className="sub-para" >
+                            <p>We want you and your heart to be healthy so you can live a happy life!</p>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <section className='d-none d-xl-block mb-5 pb-5'>
-                    <div className="container mb-5 pb-5">
+            <section className='d-none d-xl-block'>
+                <div className="choose-bglarge-container">
+                    <div className="container ">
                         <div className="row">
-                            <div className="col-6">
-                                <div className="row" >
-                                    <div className="col-6">
-                                        <div className="choose-card shadow" style={{ width: "25rem" }}>
-
-                                            <div className="choose-card-body d-flex flex-row justify-content-around">
-
+                            <div className="col-9 pb-5">
+                                <div className="d-flex flex-wrap" >
+                                    <div >
+                                        <div className="choose-card d-flex flex-row justify-content-around">
+                                            <div className="choose-card-body ">
                                                 <p className="choose-card-title">NABL Accredited Labs</p>
-                                                <div className="choose-img">
-                                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_16_unn1ky.png" alt="NABL Accredited Labs" />
-                                                </div>
+                                                <p className="choose-card-text">
+                                                    Get accurate and safe results from our NABL-certified lab partners.
+                                                </p>
                                             </div>
-                                            <p className="choose-card-text p-3">
-                                                Get accurate and safe results from our NABL-certified lab partners.
-                                            </p>
+                                            <div className="choose-img">
+                                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_16_unn1ky.png" alt="NABL Accredited Labs" />
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="col-6">
-                                        <div className="choose-card shadow" style={{ width: "25rem", marginLeft: '420px', marginTop: '100px' }}>
-                                            <div className="choose-card-body d-flex flex-row justify-content-around">
+                                    <div >
+                                        <div className="choose-card d-flex flex-row justify-content-around mt-5">
+                                            <div className="choose-card-body ">
                                                 <p className="choose-card-title">Value experience</p>
-                                                <div className="choose-img">
-                                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_14_tgjdwn.png" alt="Value experience" />
-                                                </div>
+                                                <p className="choose-card-text">
+                                                    Experience seamless care without the hassle of waiting in long lines for an appointment. Book with us for a healthier lifestyle.
+                                                </p>
                                             </div>
-                                            <p className="choose-card-text p-3">
-                                                Experience seamless care without the hassle of waiting in long lines for an appointment. Book with us for a healthier lifestyle.
-                                            </p>
+                                            <div className="choose-img">
+                                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_14_tgjdwn.png" alt="Value experience" />
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="col-6">
-                                        <div className="choose-card shadow" style={{ width: "25rem", marginTop: '300px' }}>
-                                            <div className="choose-card-body d-flex flex-row justify-content-around">
+
+                                    <div >
+                                        <div className="choose-card d-flex flex-row justify-content-around">
+                                            <div className="choose-card-body ">
                                                 <p className="choose-card-title">Timely collections</p>
-                                                <div className="choose-img">
-                                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Timely collections" />
-                                                </div>
+                                                <p className="choose-card-text">
+                                                    We collect samples timely to prevent treatment delays and ensure your continued well-being.
+                                                </p>
                                             </div>
-                                            <p className="choose-card-text p-3">
-                                                We collect samples timely to prevent treatment delays and ensure your continued well-being.
-                                            </p>
+                                            <div className="choose-img">
+                                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Timely collections" />
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div className="col-6">
-                                        <div className="choose-card shadow" style={{ width: "25rem", marginLeft: '420px', marginTop: '400px' }}>
-                                            <div className="choose-card-body d-flex flex-row justify-content-around">
+                                    <div className="mt-5">
+                                        <div className="choose-card d-flex flex-row justify-content-around mt-5">
+                                            <div className="choose-card-body ">
                                                 <p className="choose-card-title">Transparency</p>
-                                                <div className="choose-img">
-                                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_15_mmrpxx.png" alt="Transparency" />
-                                                </div>
+                                                <p className="choose-card-text">
+                                                    Enjoy hassle free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
+                                                </p>
                                             </div>
-                                            <p className="choose-card-text p-3">
-                                                Enjoy hassle free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
-                                            </p>
+                                            <div className="choose-img">
+                                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_15_mmrpxx.png" alt="Transparency" />
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                            <div className="col-6 p-5" style={{ marginTop: '-250px' }}>
-                                <div style={{ marginLeft: 80 }}>
-                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695189348/expressive-young-woman-posing-studio-removebg-preview-transformed_1_is5x1y.png" alt="women" className=" vh-100 img-fluid" />
-                                </div>
+                            <div className="col-3">
+                                <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695189348/expressive-young-woman-posing-studio-removebg-preview-transformed_1_is5x1y.png" alt="women" className=" women-img" />
                             </div>
                         </div>
                     </div>
-                </section>
-          
+                </div>
+
+            </section>
+
 
             {/* responsive */}
             <section className="d-block d-lg-none" >
@@ -131,146 +129,152 @@ const Choose = () => {
                     </div>
                 </div>
             </section>
-            <section className="d-lg-none d-md-block">
-                <div className="container">
-                    <div className="text-center">
-                        <div className="dropdown-card shadow p-3 my-4">
-                            <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
-                                <li>
-                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_16_unn1ky.png" alt="NABL Accredited Labs" />
-                                </li>
-                                <li>
-                                    <span>NABL Accredited Labs</span>
-                                </li>
-                                <li>
-                                    {
-                                        openDropdown1 ? (<>
-                                            <button className="btn border-0" type="button" onClick={handleDropdown1}>
-                                                <RxCross1 size="25" />
-                                            </button>
-                                        </>) : (
-                                            <>
+            <div className="choose-bgcontainer">
+                <section className="d-xl-none d-xl-block">
+                    <div className="container mt-5">
+                        <div className="text-center">
+                            <div className="dropdown-card p-3 my-4">
+                                <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
+                                    <li>
+                                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_16_unn1ky.png" alt="NABL Accredited Labs" />
+                                    </li>
+                                    <li>
+                                        <span>NABL Accredited Labs</span>
+                                    </li>
+                                    <li>
+                                        {
+                                            openDropdown1 ? (<>
                                                 <button className="btn border-0" type="button" onClick={handleDropdown1}>
-                                                    <AiFillCaretDown size="20" />
+                                                    <RxCross1 size="25" />
                                                 </button>
-                                            </>)
-                                    }
+                                            </>) : (
+                                                <>
+                                                    <button className="btn border-0" type="button" onClick={handleDropdown1}>
+                                                        <AiFillCaretDown size="20" />
+                                                    </button>
+                                                </>)
+                                        }
 
 
 
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
 
-                            {openDropdown1 && (
-                                <div className="text-center">
-                                    <p>
-                                        Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
-                                    </p>
-                                </div>
-                            )}
-                        </div>
+                                {openDropdown1 && (
+                                    <div className="drop-down-resul mx-auto">
+                                        <p>
+                                            Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
 
-                        <div className="dropdown-card shadow p-3 my-4">
-                            <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
-                                <li>
-                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Timely collections" />
-                                </li>
-                                <li>
-                                    <span>Timely collections</span>
-                                </li>
-                                <li>
-                                    {
-                                        openDropdown2 ? (<>
-                                            <button className="btn border-0" type="button" onClick={handleDropdown2}>
-                                                <RxCross1 size="25" />
-                                            </button>
-                                        </>) : (
-                                            <>
+                            <div className="dropdown-card shadow p-3 my-4">
+                                <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
+                                    <li>
+                                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Timely collections" />
+                                    </li>
+                                    <li>
+                                        <span>Timely collections</span>
+                                    </li>
+                                    <li>
+                                        {
+                                            openDropdown2 ? (<>
                                                 <button className="btn border-0" type="button" onClick={handleDropdown2}>
-                                                    <AiFillCaretDown size="20" />
+                                                    <RxCross1 size="25" />
                                                 </button>
-                                            </>)
-                                    }
-                                </li>
-                            </ul>
+                                            </>) : (
+                                                <>
+                                                    <button className="btn border-0" type="button" onClick={handleDropdown2}>
+                                                        <AiFillCaretDown size="20" />
+                                                    </button>
+                                                </>)
+                                        }
+                                    </li>
+                                </ul>
 
-                            {openDropdown2 && (
-                                <div className="text-center">
-                                    <p>
-                                        Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
-                                    </p>
-                                </div>
-                            )}
-                        </div>
+                                {openDropdown2 && (
+                                    <div className="text-center">
+                                        <p>
+                                            Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
 
-                        <div className="dropdown-card shadow p-3 my-4">
-                            <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
-                                <li>
-                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Value experience" />
-                                </li>
-                                <li>
-                                    <span>Value experience</span>
-                                </li>
-                                <li>
-                                    {
-                                        openDropdown3 ? (<>
-                                            <button className="btn border-0" type="button" onClick={handleDropdown3}>
-                                                <RxCross1 size="25" />
-                                            </button>
-                                        </>) : (
-                                            <>
+                            <div className="dropdown-card shadow p-3 my-4">
+                                <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
+                                    <li>
+                                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_13_sthju4.png" alt="Value experience" />
+                                    </li>
+                                    <li>
+                                        <span>Value experience</span>
+                                    </li>
+                                    <li>
+                                        {
+                                            openDropdown3 ? (<>
                                                 <button className="btn border-0" type="button" onClick={handleDropdown3}>
-                                                    <AiFillCaretDown size="20" />
+                                                    <RxCross1 size="25" />
                                                 </button>
-                                            </>)
-                                    }
-                                </li>
-                            </ul>
+                                            </>) : (
+                                                <>
+                                                    <button className="btn border-0" type="button" onClick={handleDropdown3}>
+                                                        <AiFillCaretDown size="20" />
+                                                    </button>
+                                                </>)
+                                        }
+                                    </li>
+                                </ul>
 
-                            {openDropdown3 && (
-                                <div className="text-center">
-                                    <p>
-                                        Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
-                                    </p>
-                                </div>
-                            )}
-                        </div>
+                                {openDropdown3 && (
+                                    <div className="text-center">
+                                        <p>
+                                            Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
 
-                        <div className="dropdown-card shadow p-3 my-4">
-                            <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
-                                <li>
-                                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_15_mmrpxx.png" alt="Transparency" />
-                                </li>
-                                <li>
-                                    <span>Transparency</span>
-                                </li>
-                                <li>
-                                    {
-                                        openDropdown4 ? (<>
-                                            <button className="btn border-0" type="button" onClick={handleDropdown4}>
-                                                <RxCross1 size="25" />
-                                            </button>
-                                        </>) : (
-                                            <>
+                            <div className="dropdown-card shadow p-3 my-4">
+                                <ul className="d-flex flex-row justify-content-around align-items-center list-unstyled">
+                                    <li>
+                                        <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695186466/ellipse_15_mmrpxx.png" alt="Transparency" />
+                                    </li>
+                                    <li>
+                                        <span>Transparency</span>
+                                    </li>
+                                    <li>
+                                        {
+                                            openDropdown4 ? (<>
                                                 <button className="btn border-0" type="button" onClick={handleDropdown4}>
-                                                    <AiFillCaretDown size="20" />
+                                                    <RxCross1 size="25" />
                                                 </button>
-                                            </>)
-                                    }
-                                </li>
-                            </ul>
+                                            </>) : (
+                                                <>
+                                                    <button className="btn border-0" type="button" onClick={handleDropdown4}>
+                                                        <AiFillCaretDown size="20" />
+                                                    </button>
+                                                </>)
+                                        }
+                                    </li>
+                                </ul>
 
-                            {openDropdown4 && (
-                                <div className="text-center">
-                                    <p>
-                                        Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
-                                    </p>
-                                </div>
-                            )}
+                                {openDropdown4 && (
+                                    <div className="text-center">
+                                        <p>
+                                            Enjoy hassle-free medical assistance with our transparent approach. We prioritize transparency for your smooth medical journey.
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section className="d-xl-none d-xl-block">
+                    <img src="https://res.cloudinary.com/dei8sqhcu/image/upload/v1695307676/small55_b4x47y.png" alt="women" className="img-fluid w-100" />
+                </section>
+            </div>
+
         </>
     )
 }

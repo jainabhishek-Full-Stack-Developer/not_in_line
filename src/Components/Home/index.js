@@ -5,14 +5,16 @@ import Expanding from '../Expanding';
 import Package from "../Package";
 import Choose from '../Choose';
 import Hero from '../Hero';
+import PackageHeading from '../Packageheading';
 
 const Home = () => {
     return (
         <>
             <Header />
+            <Hero />
+            <Expanding />
+            <PackageHeading />
             <div className="bg-container">
-                <Hero />
-                <Expanding />
                 <Package />
                 <Choose />
             </div>

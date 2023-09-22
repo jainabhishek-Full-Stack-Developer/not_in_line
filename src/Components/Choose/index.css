@@ -1,11 +1,10 @@
-
 .choose-heaing-container {
 
     text-align: center;
 }
 
 .choose-heading {
-    color: #333333;
+    color: #2F2F2F;
     margin-right: 10px;
     font-family: Montserrat;
     font-size: 48px;
@@ -17,7 +16,7 @@
 }
 
 .choose-card-body {
-    padding-left: 15px;
+    padding-left: 40px;
     padding-top: 15px;
 }
 
@@ -27,8 +26,9 @@
 }
 
 .choose-heading-img-container {
-    flex-shrink: 0;
-    margin-left: 70px;
+
+    margin-left: 120px;
+    margin-top: -20px;
 }
 
 .choose-heading-img {
@@ -61,25 +61,18 @@
 
 
 .choose-card {
-    width: 420px;
+    width: 373px;
     height: auto;
-    top: 2026px;
-    left: 84px;
     border-radius: 33px;
-    background: #FFFFFF;
-    position: absolute;
-
-
-
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px;
 }
 
 .choose-img {
-
     position: relative;
-    padding-left: 60px;
-    margin-top: -55px;
-
-
+    top: -55px;
+    right: 10px;
 }
 
 .choose-card-title {
@@ -89,6 +82,7 @@
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
+    width: 258px;
 
 }
 
@@ -104,46 +98,67 @@
 
 .dropdown-card {
     width: auto;
-    height: 153px;
-    top: 2422px;
-    left: 24px;
+    height: auto;
     border-radius: 38.5px;
-    background: #FFFFFF;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
 
 
 }
 
 .dropdown-card ul li img {
-    width: 80px;
-    height: 80px;
-    top: 2441px;
-    left: 38px;
-    border: 3px;
-
-}
-
-.dropdown-card ul li span
-{
-    font-family: Montserrat;
-font-size: 14px;
-font-weight: 600;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: center;
-
-}
-.dropdown-card p 
-{
     width: auto;
-height: 72px;
-top: 2481px;
-left: 88px;
-font-family: Montserrat;
-font-size: 10px;
-font-weight: 500;
-line-height: 18px;
-letter-spacing: 0em;
+    height: auto;
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
+
+.dropdown-card ul li span {
+
+
+    color: #2F2F2F;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.dropdown-card p {
+    width: auto;
+    height: 72px;
+    top: 2481px;
+    left: 88px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+
+}
+
+.women-img {
+
+    width: 194%;
+    height: 100%;
+    margin-left: -250px;
+
+
+}
+.choose-bgcontainer
+{
+    background-image: url('https://res.cloudinary.com/dei8sqhcu/image/upload/v1695303108/Rectangle_82_1_eftfe0.png');
+    background-size: cover;
+}
+.choose-bglarge-container
+{
+    background-image: url('https://res.cloudinary.com/dei8sqhcu/image/upload/v1695310582/Untitled-1fff_qybif5.png');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 @media all and (max-width:768px) {
 
