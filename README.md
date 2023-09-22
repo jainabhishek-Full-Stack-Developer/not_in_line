@@ -21,6 +21,4 @@ This project is a responsive web design showcasing top doctors in a specific med
 - Test responsiveness and functionality.
 - Commit changes to Git regularly.
 
-## Submission
 
-GitHub Repository: [Link to Your GitHub Repository](https://github.com/jainabhishek-Full-Stack-Developer/not_in_line.git)
